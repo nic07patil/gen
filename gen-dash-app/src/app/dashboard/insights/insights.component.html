@@ -1,0 +1,42 @@
+<div class="d-flex flex-row main-container">
+    <mat-card color="primary" class="">
+      <h5>List of application</h5>
+      <mat-form-field class="w-100">
+        <input
+          matInput
+          type="search"
+          placeholder="Search here"
+          class="search-input"
+        />
+        <button mat-button matSuffix mat-icon-button>
+          <mat-icon>search</mat-icon>
+        </button>
+      </mat-form-field>
+      <mat-list class="apps">
+        <mat-list-item class="selected">
+          <mat-icon mat-list-icon>grid_view</mat-icon>
+          <div mat-line>Google</div>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon mat-list-icon>grid_view</mat-icon>
+          <div mat-line>Facebook</div>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon mat-list-icon>grid_view</mat-icon>
+          <div mat-line>Twitter</div>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon mat-list-icon>grid_view</mat-icon>
+          <div mat-line>Instagram</div>
+        </mat-list-item>
+      </mat-list>
+    </mat-card>
+    <mat-card color="primary" class="">
+      <h5>Gradient Line Chart</h5>
+      <canvas id="usecaseCanvas"></canvas>
+    </mat-card>
+    <mat-card color="primary" class="">
+      <h5>Bar Chart</h5>
+      <canvas id="barchart"></canvas>
+    </mat-card>
+</div>
